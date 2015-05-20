@@ -1,0 +1,4 @@
+git init //初始化一个git仓库
+git add <file> //将改动的地方添加到版本管理器
+git commit -m "changes something" //提交到本地的版本控制库里
+git push -u origin master //将你的本地仓库提交到github中的仓库
