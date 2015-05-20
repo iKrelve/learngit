@@ -2,3 +2,6 @@ git init //初始化一个git仓库
 git add <file> //将改动的地方添加到版本管理器
 git commit -m "changes something" //提交到本地的版本控制库里
 git push -u origin master //将你的本地仓库提交到github中的仓库
+git status //可以看到距离上次提交不一样的地方
+git diff //可以看到距离上次提交更改的地方
+git log //可以看到每次的commit记录
