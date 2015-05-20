@@ -12,3 +12,5 @@ git checkout -- <file> //可以让文件回到最近一次git commit或git add�
 git reset HEAD <file> //可以把暂存区的修改撤销掉，重新放回工作区
 git checkout -b xxx //-b参数表示创建并切换，相当于git branch xxx和git checkout xxx
 git branch //查看当前分支
+git merge xxx //合并分支
+git branch -d xxx //删除分支
